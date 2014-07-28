@@ -1,0 +1,5 @@
+<launch>
+  <node name="nona_kinect_detecter" pkg="nona_object_detect" type="nona_kinect" respawn="false" output="screen">
+    <param name="/subscribed_image_topic_name" value="/camera/image_raw"/>
+  </node>
+</launch>
